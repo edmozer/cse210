@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/bin/Debug/net9.0/Exercise5
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/bin/Debug/net9.0/Exercise5.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/bin/Debug/net9.0/Exercise5.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/bin/Debug/net9.0/Exercise5.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/bin/Debug/net9.0/Exercise5.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/refint/Exercise5.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/Exercise5.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise5/obj/Debug/net9.0/ref/Exercise5.dll

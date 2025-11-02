@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/bin/Debug/net9.0/Exercise3
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/bin/Debug/net9.0/Exercise3.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/bin/Debug/net9.0/Exercise3.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/bin/Debug/net9.0/Exercise3.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/bin/Debug/net9.0/Exercise3.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/refint/Exercise3.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/Exercise3.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week01/Exercise3/obj/Debug/net9.0/ref/Exercise3.dll
