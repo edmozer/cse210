@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/bin/Debug/net9.0/Journal
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/bin/Debug/net9.0/Journal.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/bin/Debug/net9.0/Journal.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/bin/Debug/net9.0/Journal.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/bin/Debug/net9.0/Journal.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/refint/Journal.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/Journal.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week02/Journal/obj/Debug/net9.0/ref/Journal.dll
