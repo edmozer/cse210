@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/bin/Debug/net9.0/ScriptureMemorizer
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/bin/Debug/net9.0/ScriptureMemorizer.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/bin/Debug/net9.0/ScriptureMemorizer.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/bin/Debug/net9.0/ScriptureMemorizer.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/bin/Debug/net9.0/ScriptureMemorizer.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/refint/ScriptureMemorizer.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ScriptureMemorizer.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week03/ScriptureMemorizer/obj/Debug/net9.0/ref/ScriptureMemorizer.dll
