@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/bin/Debug/net6.0/YouTubeVideos
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/bin/Debug/net6.0/YouTubeVideos.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/bin/Debug/net6.0/YouTubeVideos.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/bin/Debug/net6.0/YouTubeVideos.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/bin/Debug/net6.0/YouTubeVideos.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/refint/YouTubeVideos.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/YouTubeVideos.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/YouTubeVideos/obj/Debug/net6.0/ref/YouTubeVideos.dll
