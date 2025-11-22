@@ -34,6 +34,7 @@ namespace OnlineOrdering
         {
             StringBuilder result = new StringBuilder();
             result.AppendLine("Packing Label:");
+
             foreach (var product in _products)
             {
                 result.AppendLine($"{product.GetName()} (ID: {product.GetProductId()})");
