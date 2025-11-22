@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/bin/Debug/net9.0/OnlineOrdering
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/bin/Debug/net9.0/OnlineOrdering.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/bin/Debug/net9.0/OnlineOrdering.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/bin/Debug/net9.0/OnlineOrdering.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/bin/Debug/net9.0/OnlineOrdering.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/refint/OnlineOrdering.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/OnlineOrdering.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week04/OnlineOrdering/obj/Debug/net9.0/ref/OnlineOrdering.dll
