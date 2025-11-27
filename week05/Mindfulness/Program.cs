@@ -6,10 +6,7 @@ namespace Mindfulness
     {
         static void Main(string[] args)
         {
-            // Creativity:
-            // I exceeded the requirements by ensuring that the Reflection Activity does not repeat questions
-            // until all questions have been shown at least once in the current session.
-            // This logic is implemented in the ReflectionActivity.cs file using a list to track used indices.
+            // ...existing code...
 
             while (true)
             {

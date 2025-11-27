@@ -74,7 +74,6 @@ namespace Mindfulness
             DateTime startTime = DateTime.Now;
             DateTime endTime = startTime.AddSeconds(_duration);
 
-            // Creativity: Ensure no duplicate questions in a single session until all are used.
             List<int> usedQuestionIndices = new List<int>();
             Random random = new Random();
 
@@ -82,7 +81,7 @@ namespace Mindfulness
             {
                 string question = GetUniqueRandomQuestion(usedQuestionIndices, random);
                 Console.Write($"> {question} ");
-                ShowSpinner(10); // Pause for reflection
+                ShowSpinner(10);
                 Console.WriteLine();
             }
         }

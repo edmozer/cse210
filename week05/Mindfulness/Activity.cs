@@ -31,7 +31,7 @@ namespace Mindfulness
             }
             else
             {
-                _duration = 30; // Default
+                _duration = 30;
             }
 
             Console.Clear();
