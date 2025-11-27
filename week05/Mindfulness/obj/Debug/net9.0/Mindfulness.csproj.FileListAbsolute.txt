@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/bin/Debug/net9.0/Mindfulness
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/bin/Debug/net9.0/Mindfulness.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/bin/Debug/net9.0/Mindfulness.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/bin/Debug/net9.0/Mindfulness.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/bin/Debug/net9.0/Mindfulness.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/refint/Mindfulness.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/Mindfulness.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week05/Mindfulness/obj/Debug/net9.0/ref/Mindfulness.dll
