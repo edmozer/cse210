@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Tarefas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px;
+        }
+        h1 {
+            text-align: center;
+            color: #3b82f6;
+            margin-bottom: 24px;
+        }
+        .topic {
+            background: #f1f5f9;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(59,130,246,0.05);
+        }
+        .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .topic-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2563eb;
+        }
+        .topic-actions button {
+            background: none;
+            border: none;
+            color: #ef4444;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .tasks {
+            margin-top: 12px;
+        }
+        .task {
+            display: flex;
+            align-items: center;
+            background: #e0e7ff;
+            border-radius: 8px;
+            padding: 8px 12px;
+            margin-bottom: 8px;
+        }
+        .task input[type="checkbox"] {
+            margin-right: 12px;
+        }
+        .task-title {
+            flex: 1;
+            font-size: 1em;
+        }
+        .task-actions button {
+            background: none;
+            border: none;
+            color: #ef4444;
+            font-size: 1em;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .add-topic, .add-task {
+            display: flex;
+            margin-top: 16px;
+        }
+        .add-topic input, .add-task input {
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            font-size: 1em;
+        }
+        .add-topic button, .add-task button {
+            background: #3b82f6;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 1em;
+            margin-left: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .add-topic button:hover, .add-task button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calendário de Tarefas</h1>
+        <div id="calendar-controls" style="display:flex; justify-content:center; align-items:center; margin-bottom:24px;">
+            <button onclick="prevMonth()" style="background:#3b82f6;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:1em;cursor:pointer;margin-right:12px;">◀</button>
+            <span id="monthYear" style="font-size:1.2em;font-weight:700;color:#2563eb;"></span>
+            <button onclick="nextMonth()" style="background:#3b82f6;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:1em;cursor:pointer;margin-left:12px;">▶</button>
+        </div>
+        <div id="calendar"></div>
+        <div id="dayDetails" style="display:none;"></div>
+    </div>
+    <script>
+        // Calendário e tarefas por dia
+        const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+        let currentDate = new Date();
+        let calendarData = {};
+
+        function getMonthYearKey(year, month) {
+            return `${year}-${month}`;
+        }
+
+        function renderCalendar() {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            document.getElementById('monthYear').textContent = `${monthNames[month]} ${year}`;
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            let calendarHTML = '<table style="width:100%;border-collapse:collapse;">';
+            calendarHTML += '<tr>';
+            ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'].forEach(d => {
+                calendarHTML += `<th style="padding:8px;color:#2563eb;font-weight:700;">${d}</th>`;
+            });
+            calendarHTML += '</tr><tr>';
+            let dayOfWeek = firstDay;
+            for (let i = 0; i < dayOfWeek; i++) {
+                calendarHTML += '<td></td>';
+            }
+            for (let day = 1; day <= daysInMonth; day++) {
+                const key = getMonthYearKey(year, month);
+                const hasTasks = calendarData[key] && calendarData[key][day] && calendarData[key][day].length > 0;
+                let cellStyle = "padding:8px;vertical-align:top;cursor:pointer;border-radius:8px;";
+                if (hasTasks) {
+                    cellStyle += "background:#e0e7ff;border:2px solid #3b82f6; box-shadow:0 0 8px #3b82f6;";
+                }
+                calendarHTML += `<td style="${cellStyle}" onclick="showDayDetails(${day})">
+                    <div style="font-weight:700;color:#3b82f6;">${day}</div>
+                    ${hasTasks ? `<span style='font-size:0.9em;color:#16a34a;'>${calendarData[key][day].length} tarefa(s)</span>` : ''}
+                </td>`;
+                dayOfWeek++;
+                if (dayOfWeek === 7 && day !== daysInMonth) {
+                    calendarHTML += '</tr><tr>';
+                    dayOfWeek = 0;
+                }
+            }
+            while (dayOfWeek > 0 && dayOfWeek < 7) {
+                calendarHTML += '<td></td>';
+                dayOfWeek++;
+            }
+            calendarHTML += '</tr></table>';
+            document.getElementById('calendar').innerHTML = calendarHTML;
+            document.getElementById('dayDetails').style.display = 'none';
+        }
+
+        function prevMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        }
+        function nextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        }
+
+        function showDayDetails(day) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            if (!calendarData[key]) calendarData[key] = {};
+            if (!calendarData[key][day]) calendarData[key][day] = [];
+            const dayDetails = document.getElementById('dayDetails');
+            dayDetails.style.display = 'block';
+            let html = `<h2 style='color:#2563eb;'>${day} de ${monthNames[month]} ${year}</h2>`;
+            html += `<div id='topics'></div>`;
+            html += `<div class='add-topic' style='margin-top:16px;'>
+                        <input type='text' id='newTopic' placeholder='Novo tópico...'>
+                        <button onclick='addTopic(${day})'>Adicionar Tópico</button>
+                    </div>`;
+            html += `<button onclick='closeDayDetails()' style='margin-top:16px;background:#ef4444;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:1em;cursor:pointer;'>Fechar</button>`;
+            dayDetails.innerHTML = html;
+            renderTopics(day);
+        }
+
+        function closeDayDetails() {
+            document.getElementById('dayDetails').style.display = 'none';
+        }
+
+        function renderTopics(day) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            const topicsDiv = document.getElementById('topics');
+            topicsDiv.innerHTML = '';
+            calendarData[key][day].forEach((topic, topicIdx) => {
+                const topicEl = document.createElement('div');
+                topicEl.className = 'topic';
+                topicEl.innerHTML = `
+                    <div class='topic-header'>
+                        <span class='topic-title'>${topic.title}</span>
+                        <div class='topic-actions'>
+                            <button onclick='removeTopic(${day},${topicIdx})' title='Remover tópico'>🗑️</button>
+                        </div>
+                    </div>
+                    <div class='tasks' id='tasks-${topicIdx}'></div>
+                    <div class='add-task'>
+                        <input type='text' id='newTask-${topicIdx}' placeholder='Nova tarefa...'>
+                        <button onclick='addTask(${day},${topicIdx})'>Adicionar Tarefa</button>
+                    </div>
+                `;
+                topicsDiv.appendChild(topicEl);
+                renderTasks(day, topicIdx);
+            });
+        }
+
+        function addTopic(day) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            const input = document.getElementById('newTopic');
+            const title = input.value.trim();
+            if (title) {
+                calendarData[key][day].push({ title, tasks: [] });
+                input.value = '';
+                renderTopics(day);
+                renderCalendar();
+            }
+        }
+
+        function removeTopic(day, idx) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            calendarData[key][day].splice(idx, 1);
+            renderTopics(day);
+            renderCalendar();
+        }
+
+        function renderTasks(day, topicIdx) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            const tasksDiv = document.getElementById(`tasks-${topicIdx}`);
+            tasksDiv.innerHTML = '';
+            calendarData[key][day][topicIdx].tasks.forEach((task, taskIdx) => {
+                const taskEl = document.createElement('div');
+                taskEl.className = 'task';
+                taskEl.innerHTML = `
+                    <span class='task-title' style='text-decoration:${task.done ? 'line-through' : 'none'}; color:${task.done ? '#6b7280' : '#1e293b'}'>${task.title}</span>
+                    <div class='task-actions'>
+                        <button onclick='toggleTask(${day},${topicIdx},${taskIdx})' title='Marcar como feita' style='background:#16a34a;color:#fff;border:none;border-radius:8px;padding:4px 10px;font-size:0.95em;cursor:pointer;margin-left:8px;'>✔️</button>
+                        <button onclick='removeTask(${day},${topicIdx},${taskIdx})' title='Remover tarefa'>🗑️</button>
+                    </div>
+                `;
+                tasksDiv.appendChild(taskEl);
+            });
+        }
+
+        function addTask(day, topicIdx) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            const input = document.getElementById(`newTask-${topicIdx}`);
+            const title = input.value.trim();
+            if (title) {
+                calendarData[key][day][topicIdx].tasks.push({ title, done: false });
+                input.value = '';
+                renderTasks(day, topicIdx);
+                renderCalendar();
+            }
+        }
+
+        function removeTask(day, topicIdx, taskIdx) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            calendarData[key][day][topicIdx].tasks.splice(taskIdx, 1);
+            renderTasks(day, topicIdx);
+            renderCalendar();
+        }
+
+        function toggleTask(day, topicIdx, taskIdx) {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const key = getMonthYearKey(year, month);
+            calendarData[key][day][topicIdx].tasks[taskIdx].done = !calendarData[key][day][topicIdx].tasks[taskIdx].done;
+            renderTasks(day, topicIdx);
+            renderCalendar();
+        }
+
+        renderCalendar();
+    </script>
+</body>
+</html>

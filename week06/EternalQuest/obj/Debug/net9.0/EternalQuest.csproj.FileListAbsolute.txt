@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/bin/Debug/net9.0/EternalQuest
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/bin/Debug/net9.0/EternalQuest.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/bin/Debug/net9.0/EternalQuest.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/bin/Debug/net9.0/EternalQuest.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/bin/Debug/net9.0/EternalQuest.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/refint/EternalQuest.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/EternalQuest.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week06/EternalQuest/obj/Debug/net9.0/ref/EternalQuest.dll

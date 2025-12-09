@@ -1,0 +1,15 @@
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/bin/Debug/net9.0/ExerciseTracking
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/bin/Debug/net9.0/ExerciseTracking.deps.json
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/bin/Debug/net9.0/ExerciseTracking.runtimeconfig.json
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/bin/Debug/net9.0/ExerciseTracking.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/bin/Debug/net9.0/ExerciseTracking.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.AssemblyInfoInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.AssemblyInfo.cs
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.csproj.CoreCompileInputs.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.sourcelink.json
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/refint/ExerciseTracking.dll
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.pdb
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ExerciseTracking.genruntimeconfig.cache
+/Users/edmozercavalcante/Documents/Code/BYU/week07/ExerciseTracking/obj/Debug/net9.0/ref/ExerciseTracking.dll

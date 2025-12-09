@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário - Interesse na Igreja</title>
+  <style>
+    body {
+      background: linear-gradient(120deg, #f0f4f8 0%, #e2eafc 100%);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .form-container {
+      background: #fff;
+      padding: 32px 28px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      max-width: 400px;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: #2a3d66;
+      margin-bottom: 24px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #2a3d66;
+      font-weight: 500;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #bfc8e6;
+      margin-bottom: 18px;
+      font-size: 1em;
+      background: #f7f9fc;
+      color: #2a3d66;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background: #2a3d66;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    input[type="submit"]:hover {
+      background: #1c2847;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulário de Interesse</h2>
+    <form>
+      <label for="conheceu">Você já conheceu ou ouviu falar da Igreja de Jesus Cristo dos Santos dos Últimos Dias?</label>
+      <select id="conheceu" name="conheceu">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <label for="frequentou">Você já frequentou alguma reunião ou atividade da Igreja alguma vez na vida?</label>
+      <select id="frequentou" name="frequentou">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+
+      <label for="interesse">Você tem interesse em saber mais sobre a Igreja de Jesus Cristo dos Santos dos Últimos Dias?</label>
+      <select id="interesse" name="interesse">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+        <option value="talvez">Talvez</option>
+      </select>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>
